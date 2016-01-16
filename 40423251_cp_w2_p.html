@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
+<?xml-stylesheet ekr_test ?>
+<leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
+<leo_header file_format="2"/>
+<vnodes>
+<v t="leo.20160117002332.1"><vh>@edit 40423251_cp_w3_p.html</vh></v>
+</vnodes>
+<tnodes>
+<t tx="leo.20160117002332.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423251-3&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;zero to hero python教學 &lt;/h1&gt;
+    &lt;p&gt;40423251 四設一乙&lt;/p&gt;		
+&lt;/section&gt;
+	
+&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;引號的使用規則&lt;/h1&gt;
+    &lt;p&gt;在前面我們學會了最簡單的輸出手段"print('___')",之後我們提到的是關於引號的使用,單引號跟雙引號其實都能把裡面的字做輸出,但不能任意的切換這兩個引號,這點在輸出英文字串的時候尤其需要注意&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+如前面所說,我們輸入這兩個字串讓他運行,結果是一樣的:
+&lt;/br&gt;
+print("第二份作業")
+&lt;/br&gt;
+print('第二份作業')
+&lt;/br&gt;
+都可以得到"第二份作業"
+&lt;/section&gt;
+&lt;section&gt;
+但我們絕對不允許混著用,例如:
+&lt;/br&gt;
+print("第二份作業')
+&lt;/br&gt;
+也盡量要避免在引號內使用引號,例如:
+&lt;/br&gt;
+print('I'm a student')
+&lt;/br&gt;
+這樣他會把框框指向I這個字上
+&lt;/br&gt;
+所以我們這個時候使用雙引號就可以避免這個衝突
+&lt;/br&gt;
+print("I'm a student")
+&lt;/section&gt;
+
+&lt;section&gt;
+我們可以把兩個字串"相加"
+&lt;br /&gt;
+print("我正在"+"使用leo editor寫作業")
+之後很明顯是得到:我正在使用leo editor寫作業
+&lt;br /&gt;
+也可以在引號間附上反斜線來達成空行的效果,例如:
+&lt;/br&gt;
+print("我的CAMSTUDIO/老是出狀況")
+&lt;/br&gt;
+得到:我的CAMSTUDIO
+&lt;/br&gt;
+老是出狀況
+&lt;/br&gt;
+還有個很特別的方法做空行:3個引號
+&lt;/br&gt;
+print("""我的CAMSTUDIO
+&lt;/br&gt;
+老是出狀況""")
+得到的結果跟反斜線是一樣的
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h1&gt;心得&lt;/h1&gt;
+Python:電腦語言看似深奧,但只要多做幾次之後就如同我們說的語言一樣流暢了。
+上課 : 本週所學的是如何利用c:\現有的Ana3-2015工作,並介紹Python3的內容。包含Leo Editor 5.1,Pelican和Markdown模組。還有介紹如何製作reveal.js投影片。並了解cd的用法為"更換目錄", 存成.md檔 較人性化,適合人看。
+&lt;/section&gt;
+&lt;section&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;第三週了,跟著老師的步驟做,但仍跟不上。要上台報告了!!非常的緊張,也不知道該說什麼,就把上課所抄的筆記念了一遍,做了一個不太清楚的結論,雖然不是很好,但我想至少上台報告時不是只有懺悔。給自己的分數是:64&lt;/p&gt;
+&lt;/section&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
+
+</t>
+</tnodes>
+</leo_file>
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423251-2</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>zero to hero python教學 </h1>
+    <p>40423251 四設一乙</p>		
+</section>
+	
+<section id="hw-task-one">
+    <h1>python?</h1>
+    <p>python是一種電腦語言,相較於其他電腦語言更為簡單,可以用來做計算,簡報,統計,甚至是管理倉儲,都可以利用python語法來完成,可以使用python語法的地方也不少,例如leo editor及matlab都是用python語法來運作,最重要的是,大部分的python軟體是免費的!</p>
+</section>
+
+<section>
+<h1>怎麼樣的人適合學習python</h1>
+對程式設計陌生的人
+<br />
+學生
+<br />
+找工作的人
+<br />
+IT PROS(從事資訊科技
+的專業人員,information technology professionals)
+<br />
+對程式語法有興趣的人
+</section>
+<section>
+<h1>一些簡單的語法:</h1>
+
+print:輸出
+<br />
+在後面加一個小括弧跟引號,可以輸出引號內的內容:
+<br />
+print("hello world")
+<br />
+然後就可以得到:hello world!
+</section>
+<section>
+#:不作為語法
+<br />
+不會把#後面的字串當作是程式語言,方便作為標註
+<br />
+例如:#這是zero to hero第一回的介紹
+</section>
+<section>
+<h1>心得</h1>
+python是一種新主流!因為有協同所以大家不論有無網路都可以隨時做作業,且它不但免費又不像OFFICE那麼繁雜,是一個不可多得的好程式
+</section>
+<section>
+    <h1>自評</h1>
+    <p>作為一位工程師做創造的工作,了解到身為工程師所需的能力。一樣跟著老師做,但還是無法跟上,不停努力中。給自己的分數是: 63</p>
+</section>
+				
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+
